@@ -8,6 +8,7 @@
     left: 0;
     z-index: 99;
     width: 100%;
+    transition: .3s;
 }
 /*sticky START CSS*/
 header.sticky {
@@ -15,7 +16,8 @@ header.sticky {
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .sticky {
-    background-color: rgba(0, 0, 0, 0.747);
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.847);
     -webkit-box-shadow: 0px 2px 10px -8px #ffffff !important;
     box-shadow: 0px 2px 10px -8px #ffffff !important;
     z-index: 99;
