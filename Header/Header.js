@@ -18,10 +18,11 @@ const Header = () => {
         }
     }
     // Offcanvas toggle
-
     const current = () => {
         const addclass = document.querySelector(".header_area");
         addclass.classList.toggle("current");
+        const hidden = document.querySelector("body");
+        hidden.classList.toggle("overflow-hidden");
     };
     return (
         <header className="header_area">
